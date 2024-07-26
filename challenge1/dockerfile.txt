@@ -1,5 +1,0 @@
-# Use the official Nginx image from the Docker Hub
-FROM nginx:latest
-
-# Copy the content of the public folder to the default Nginx public folder
-COPY public /usr/share/nginx/html
